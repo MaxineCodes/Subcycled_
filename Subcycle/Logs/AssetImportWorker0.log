@@ -505,3 +505,4 @@ Received Import Request.
 Start importing Assets/Spites/Environment/water_background.png using Guid(14dc33cadeb5c5b4e9d491b15f17b365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a2ec5a96083afb09fe9e2bcfa55546') in 0.016016 seconds 
   Import took 0.070492 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
