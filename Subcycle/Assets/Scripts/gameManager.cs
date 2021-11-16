@@ -14,7 +14,7 @@ public class gameManager : MonoBehaviour
     public GameObject player;
 
     public int trashCollectedCount = 0;
-    public int trashCollectedMax = 60;
+    public int trashCollectedMax = 100;
     public int trashCollectedPercent = 0;
 
     public bool milestone1, milestone2;

@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6479425552322619830}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.22650093, y: 2.465003, z: 9.306629}
-  m_LocalScale: {x: 0.16767, y: 0.16767, z: 0.16767}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8561010662955203799, guid: 8e3f9349fae777942bff6a8d4745c58f, type: 3}
+  m_Sprite: {fileID: -5282937264148517316, guid: 4968338e06b733944a3d4a97af469d18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -124,7 +124,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 13.61, y: 13.57}
+    oldSize: {x: 6.76, y: 6.74}
     newSize: {x: 13.61, y: 13.57}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -150,7 +150,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 13.61, y: 13.57}
+    oldSize: {x: 6.76, y: 6.74}
     newSize: {x: 13.61, y: 13.57}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -172,3 +172,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
+  trash0: {fileID: 7858980336673299937, guid: 4968338e06b733944a3d4a97af469d18, type: 3}
+  trash1: {fileID: -4254139554137441018, guid: 4968338e06b733944a3d4a97af469d18, type: 3}
+  trash2: {fileID: -6160856761786740092, guid: 4968338e06b733944a3d4a97af469d18, type: 3}
+  trash3: {fileID: -6345823308526285994, guid: 4968338e06b733944a3d4a97af469d18, type: 3}
+  trash4: {fileID: -1645904623057198210, guid: 4968338e06b733944a3d4a97af469d18, type: 3}
+  trash5: {fileID: 384086640575402203, guid: 4968338e06b733944a3d4a97af469d18, type: 3}
+  trash6: {fileID: 7367594878263299262, guid: 4968338e06b733944a3d4a97af469d18, type: 3}
+  trash7: {fileID: 5228118380326919613, guid: 4968338e06b733944a3d4a97af469d18, type: 3}
+  trash8: {fileID: 5869482476633733071, guid: 4968338e06b733944a3d4a97af469d18, type: 3}
+  trash9: {fileID: -5282937264148517316, guid: 4968338e06b733944a3d4a97af469d18, type: 3}
+  trash10: {fileID: 7321616186773390858, guid: 4968338e06b733944a3d4a97af469d18, type: 3}

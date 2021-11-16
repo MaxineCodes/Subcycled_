@@ -28,10 +28,10 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()                                                                               // Hii!
-    {                                                                                           // I changed the flipY to flipX and disabled the quaternion rotation
-        currentPos = transform.position;                                                        // It would be nice to still have some rotation, but not completely up and down. Like there's a limit.
-                                                                                                // Feel free to revert all these changes btw!
+    void Update()
+    {
+        currentPos = transform.position;
+
         Movement();
         FlipSprite();
     }
@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
             rigidBody2D.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
 
             playerAngle = AngleBetweenTwoPoints(currentPos, mousePosition);
-            //transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, playerAngle));  // ==========================================================
+            transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, playerAngle));    // =======================================
         }
         else
         {
@@ -59,11 +59,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (rigidBody2D.velocity.x < 0)
         {
-            spriteRenderer.flipX = false; // ========================================================== previously: flipY
+            //spriteRenderer.flipX = false; // ========================================================== If you want to disable rotation, use this instead of flipY
+            spriteRenderer.flipY = false;
         }
         else if (rigidBody2D.velocity.x > 0)
         {
-            spriteRenderer.flipX = true; // ========================================================== previously: flipY
+            //spriteRenderer.flipX = true; // ========================================================== same as above ^
+            spriteRenderer.flipY = true;
         }
     }
 
