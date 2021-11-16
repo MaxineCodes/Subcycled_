@@ -1,4 +1,4 @@
-## Subcycled!
+## SubCycled!
 ___
 Gamejam project for college. Unity 2D game
 - Contributors: [E1win](https://github.com/E1win), [Mieve98](https://github.com/Mieve98), [Hyralite](https://github.com/Hylarite), [MaxineCodes](https://github.com/MaxineCodes)
