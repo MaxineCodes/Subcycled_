@@ -14,14 +14,30 @@ public class UIManager : MonoBehaviour
     */
 
     private gameManager gameManager;
+    public Text trashCollectedText;
+    public GameObject gameWonPopup;
 
     void Start() 
     {
         gameManager = this.GetComponent<gameManager>();
+
+        gameWonPopup.SetActive(false);
+
+        updateUI();
     }
 
-    public void loadSampleScene() 
+    public void updateUI()
     {
+        trashCollectedText.text = "Trash Collected: " + gameManager.trashCollectedCount;
+        if (gameManager.trashCollectedCount >= gameManager.trashCollectedMax) {
+            gameWonPopup.SetActive(true);
+        }
+    }
+
+    public void loadSampleScene() {
         SceneManager.LoadScene("SampleScene");
+    }
+    public void loadMainMenuScene(){
+        SceneManager.LoadScene("mainMenuScene");
     }
 }

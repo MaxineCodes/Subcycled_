@@ -10,7 +10,7 @@ public class Trash : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            //gameManager.TrashCollected();
+            gameManager.TrashCollected();
             DestroyTrash();
         }
     }

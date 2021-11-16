@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a805ad78d636f74469d79c2f67b6802f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trashCollectedText: {fileID: 0}
 --- !u!114 &1160431570422692510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56,3 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3627e3bf26f82644ca8be12f4b814699, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  trashCollectedCount: 0
+  trashCollectedMax: 60
+  trashCollectedPercent: 0
