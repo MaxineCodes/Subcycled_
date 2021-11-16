@@ -1408,3 +1408,43 @@ Received Import Request.
 Start importing Assets/Prefabs/Environment.prefab using Guid(8b6a9a24b6d6e344fbf9351868a8171d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c17cfc56c3ce9cb96bb0dac90f8e19') in 0.024037 seconds 
   Import took 0.029110 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 594.047255 seconds.
+  path: Assets/Prefabs/Environment.prefab
+  artifactKey: Guid(8b6a9a24b6d6e344fbf9351868a8171d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment.prefab using Guid(8b6a9a24b6d6e344fbf9351868a8171d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270061e28041cb936a2e94dcadfd4f85') in 0.017704 seconds 
+  Import took 0.022641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 358.473589 seconds.
+  path: Assets/Sprites/Environment/seabeds.png
+  artifactKey: Guid(e186adb0c354a534590b24e001f51ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/seabeds.png using Guid(e186adb0c354a534590b24e001f51ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6ba55bb60ee82046d39bf7a436f36d') in 0.017854 seconds 
+  Import took 0.021842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprites/Environment/water_rockwalls.png
+  artifactKey: Guid(8aa92905d823d724fa0772f0584c6929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/water_rockwalls.png using Guid(8aa92905d823d724fa0772f0584c6929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d3daff6597f03d886d439289c291b3') in 0.020910 seconds 
+  Import took 0.024175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.760505 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(a805ad78d636f74469d79c2f67b6802f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(a805ad78d636f74469d79c2f67b6802f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03968e4cc1406cd56363188409805098') in 0.259885 seconds 
+  Import took 0.263507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Scripts/gameManager.cs
+  artifactKey: Guid(3627e3bf26f82644ca8be12f4b814699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/gameManager.cs using Guid(3627e3bf26f82644ca8be12f4b814699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14374abdce9ef7d2715ccdaf3bc6949') in 0.005695 seconds 
+  Import took 0.008632 seconds .
+
