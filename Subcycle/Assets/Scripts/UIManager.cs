@@ -17,11 +17,14 @@ public class UIManager : MonoBehaviour
     public Text trashCollectedText;
     public GameObject gameWonPopup;
 
+    public GameObject credits;
+
     void Start() 
     {
         gameManager = this.GetComponent<gameManager>();
 
         gameWonPopup.SetActive(false);
+        credits.SetActive(false);
 
         updateUI();
     }
@@ -39,5 +42,12 @@ public class UIManager : MonoBehaviour
     }
     public void loadMainMenuScene(){
         SceneManager.LoadScene("mainMenuScene");
+    }
+    public void openCredits(){
+        credits.SetActive(true);
+    }
+    public void closeCredits(){
+        credits.SetActive(false);
+        
     }
 }
