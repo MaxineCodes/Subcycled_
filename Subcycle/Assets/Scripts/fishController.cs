@@ -24,6 +24,10 @@ public class fishController : MonoBehaviour
     float nextTime;
     float modifier;
 
+    Color mColour;
+    float opacity = 0f;
+    int visibleRequirementPercentage;
+
     void Start()
     {
         gm = gm.GetComponent<gameManager>();
@@ -59,6 +63,8 @@ public class fishController : MonoBehaviour
 
         // Random timer to find new target position
         InvokeRepeating("newTargetPosition", Random.Range(3f,10f), Random.Range(3f,10f));
+        visibleRequirementPercentage = Random.Range(15, 100);
+        moveSpeed = Random.Range(4, 6);
     }
 
     void Update()
@@ -72,6 +78,14 @@ public class fishController : MonoBehaviour
         if (Vector3.Distance (currentPos, new Vector2(targetX, targetY)) < 1) {
             newTargetPosition();
         }
+
+        // Make fish visible when percentage is above a threshold. 
+        if (visibleRequirementPercentage <= gm.trashCollectedPercent) {
+            isVisible = true;
+            opacity = 1f;
+        }
+        mColour = new Color(1f, 1f, 1f, opacity);
+        sprite.color = mColour;
     }
 
     // Move to target position.
@@ -104,7 +118,7 @@ public class fishController : MonoBehaviour
         //  x: -75  y:   2
         //  X:  74  Y: -12
 
-        targetX = Random.Range(-75, 75);
+        targetX = Random.Range(-125, 125);
         targetY = Random.Range(-12, 2);
 
         Debug.Log("New Target Position: " + targetX + " || " + targetY);
