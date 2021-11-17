@@ -14,12 +14,15 @@ public class UIManager : MonoBehaviour
     */
 
     private gameManager gameManager;
-    public Text trashCollectedText;
+
     public Text message;
     public Color messageColour;
-    public GameObject gameWonPopup;
+    float opacity = 0f;
 
+    public GameObject gameWonPopup;
+    public Text trashCollectedText;
     public GameObject credits;
+    public GameObject intro;
 
     void Start() 
     {
@@ -27,15 +30,15 @@ public class UIManager : MonoBehaviour
 
         gameWonPopup.SetActive(false);
         credits.SetActive(false);
-
-        messageColour = new Color(1f, 1f, 1f, 0f);
-        message.color = messageColour;
+        messageColour = new Color(1f, 1f, 1f, opacity);
 
         updateUI();
     }
     void Update() 
     {
-
+        messageColour = new Color(1f, 1f, 1f, opacity);
+        message.color = messageColour;
+        opacity -= 0.001f;
     }
 
     public void updateUI()
@@ -58,8 +61,13 @@ public class UIManager : MonoBehaviour
     public void closeCredits(){
         credits.SetActive(false);
     }
+    public void openIntro(){
+        intro.SetActive(true);
+    }
+    public void closeIntro(){
+        intro.SetActive(false);
+    }
     public void displayMessage() {
-        float opacity;
-        //messageColour
+        opacity = 1f;
     }
 }

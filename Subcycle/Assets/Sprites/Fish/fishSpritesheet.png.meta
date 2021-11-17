@@ -17,6 +17,12 @@ TextureImporter:
   - first:
       213: -143355550250540301
     second: bFish_0
+  - first:
+      213: 2918394553505743916
+    second: bFish1
+  - first:
+      213: 7744456669243413460
+    second: bFish2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -138,7 +144,7 @@ TextureImporter:
         width: 484
         height: 336
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -159,7 +165,7 @@ TextureImporter:
         width: 980
         height: 567
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -180,7 +186,7 @@ TextureImporter:
         width: 458
         height: 508
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,7 +207,7 @@ TextureImporter:
         width: 580
         height: 351
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -217,12 +223,12 @@ TextureImporter:
       name: bFish_0
       rect:
         serializedVersion: 2
-        x: 666
+        x: 664
         y: 976
         width: 593
         height: 354
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,6 +236,48 @@ TextureImporter:
       bones: []
       spriteID: 3f26cb6f2e2b20ef0800000000000000
       internalID: -143355550250540301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bFish1
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 673
+        width: 483
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2405245268308820800000000000000
+      internalID: 2918394553505743916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bFish2
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 663
+        width: 440
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d398ac0f46d97b60800000000000000
+      internalID: 7744456669243413460
       vertices: []
       indices: 
       edges: []
