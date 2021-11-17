@@ -21,6 +21,7 @@ public class UIManager : MonoBehaviour
 
     public GameObject gameWonPopup;
     public Text trashCollectedText;
+    
     public GameObject credits;
     public GameObject intro;
 
@@ -38,7 +39,9 @@ public class UIManager : MonoBehaviour
     {
         messageColour = new Color(1f, 1f, 1f, opacity);
         message.color = messageColour;
-        opacity -= 0.001f;
+    }
+    void FixedUpdate() {
+        opacity -= 0.01f;
     }
 
     public void updateUI()
