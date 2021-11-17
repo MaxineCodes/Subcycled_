@@ -38,7 +38,7 @@ public class fishController : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
 
         // Random Sprite
-        switch (Random.Range(0, 6))
+        switch (Random.Range(0, 12))
         {
             case 0:
                 sprite.sprite = fish0;
