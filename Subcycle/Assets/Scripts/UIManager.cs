@@ -15,6 +15,8 @@ public class UIManager : MonoBehaviour
 
     private gameManager gameManager;
     public Text trashCollectedText;
+    public Text message;
+    public Color messageColour;
     public GameObject gameWonPopup;
 
     public GameObject credits;
@@ -26,7 +28,14 @@ public class UIManager : MonoBehaviour
         gameWonPopup.SetActive(false);
         credits.SetActive(false);
 
+        messageColour = new Color(1f, 1f, 1f, 0f);
+        message.color = messageColour;
+
         updateUI();
+    }
+    void Update() 
+    {
+
     }
 
     public void updateUI()
@@ -48,6 +57,9 @@ public class UIManager : MonoBehaviour
     }
     public void closeCredits(){
         credits.SetActive(false);
-        
+    }
+    public void displayMessage() {
+        float opacity;
+        //messageColour
     }
 }

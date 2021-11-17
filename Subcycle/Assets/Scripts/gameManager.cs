@@ -42,6 +42,7 @@ public class gameManager : MonoBehaviour
 
 
         UIManager.updateUI();
+        UIManager.displayMessage();
 
         // Debugging
         Debug.Log("Percentage: " + trashCollectedPercent);

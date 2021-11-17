@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2218974196846678191}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.00854, y: -0.27019304, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -96,13 +96,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47df7bb5a05700549807162311d8c816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fish0: {fileID: 7902425761638959225, guid: faa434170fb208540bf7b14b34b29033, type: 3}
+  fish0: {fileID: -2679669523644749222, guid: faa434170fb208540bf7b14b34b29033, type: 3}
   fish1: {fileID: -2679669523644749222, guid: faa434170fb208540bf7b14b34b29033, type: 3}
   fish2: {fileID: 5625492550189244877, guid: faa434170fb208540bf7b14b34b29033, type: 3}
   fish3: {fileID: -2408940168553133086, guid: faa434170fb208540bf7b14b34b29033, type: 3}
   fish4: {fileID: -143355550250540301, guid: faa434170fb208540bf7b14b34b29033, type: 3}
   fish5: {fileID: -143355550250540301, guid: faa434170fb208540bf7b14b34b29033, type: 3}
   fish6: {fileID: -143355550250540301, guid: faa434170fb208540bf7b14b34b29033, type: 3}
+  fish7: {fileID: 7902425761638959225, guid: faa434170fb208540bf7b14b34b29033, type: 3}
+  fish8: {fileID: 7902425761638959225, guid: faa434170fb208540bf7b14b34b29033, type: 3}
+  fish9: {fileID: 7902425761638959225, guid: faa434170fb208540bf7b14b34b29033, type: 3}
+  fish10: {fileID: -2408940168553133086, guid: faa434170fb208540bf7b14b34b29033, type: 3}
+  fish11: {fileID: -143355550250540301, guid: faa434170fb208540bf7b14b34b29033, type: 3}
+  fish12: {fileID: -143355550250540301, guid: faa434170fb208540bf7b14b34b29033, type: 3}
   isVisible: 0
   gm: {fileID: 0}
 --- !u!50 &811001124

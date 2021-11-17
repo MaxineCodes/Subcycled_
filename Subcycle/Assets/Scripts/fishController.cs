@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class fishController : MonoBehaviour
 {
-    public Sprite fish0, fish1, fish2, fish3, fish4, fish5, fish6;
+    public Sprite fish0, fish1, fish2, fish3, fish4, fish5, fish6, fish7, fish8, fish9, fish10, fish11, fish12;
     public bool isVisible;
 
     private SpriteRenderer sprite;
@@ -56,6 +56,24 @@ public class fishController : MonoBehaviour
                     break; 
                 case 6:
                     sprite.sprite = fish6;
+                    break; 
+                case 7:
+                    sprite.sprite = fish7;
+                    break; 
+                case 8:
+                    sprite.sprite = fish8;
+                    break; 
+                case 9:
+                    sprite.sprite = fish9;
+                    break; 
+                case 10:
+                    sprite.sprite = fish10;
+                    break; 
+                case 11:
+                    sprite.sprite = fish11;
+                    break; 
+                case 12:
+                    sprite.sprite = fish12;
                     break; 
             }
 
@@ -120,7 +138,5 @@ public class fishController : MonoBehaviour
 
         targetX = Random.Range(-125, 125);
         targetY = Random.Range(-12, 2);
-
-        Debug.Log("New Target Position: " + targetX + " || " + targetY);
     }
 }
